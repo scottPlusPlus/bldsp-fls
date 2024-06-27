@@ -24,7 +24,7 @@ export default function Home() {
 
           <div className="w-full text-center">
             <h1 className="text-6xl md:text-8xl font-bold pb-4">bldsp fls</h1>
-            <h2 className="text-4xl md:text-6xl font-bold">nextjs starter project<br></br>let's build something epic<br></br>\m/</h2>
+            <h2 className="text-4xl md:text-6xl font-bold">nextjs starter project<br></br>let's build epic things<br></br>\m/</h2>
           </div>
         </CenterLimitWidth>
       </div>
@@ -32,7 +32,7 @@ export default function Home() {
       <CenterLimitWidth>
         <div className="w-full text-center">
           <div className="py-12 space-y-8">
-            <p className="font-bold">feel free to use this for whatever</p>
+            <p className="font-bold">feel free to <a href="https://github.com/scottPlusPlus/bldsp-fls" target="_blank">use this</a> for whatevs</p>
             <GradualTextOnView text={gradualText} />
           </div>
         </div>

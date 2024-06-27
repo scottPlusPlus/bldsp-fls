@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   openGraph: {
     images: [
       {
-        url: OgImage.src,
+        url: "https://bldsp-fls.vercel.app/img/og_img.png",
       },
     ],
   },
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     title: "bldsp fls",
     description: "getting started with buildspace s5",
     creator: "@ScottPlusPlus",
-    images:  OgImage.src,
+    images:  "https://bldsp-fls.vercel.app/img/og_img.png",
   },
 };
 
