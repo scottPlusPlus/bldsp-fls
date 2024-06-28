@@ -1,15 +1,14 @@
-import { CenterLimitWidth } from "@/components/CenterLimitWidth";
-import FullImageHero from "@/components/FullImageHero";
-
-import BuildSpaceIcon from "@/assets/buildspace.svg";
 import { Attribution } from "@/components/Attribution";
-import GradualTextOnView from "@/components/GradualTextOnView";
+import { CenterLimitWidth } from "@/components/CenterLimitWidth";
+import BuildSpaceIcon from "@/assets/buildspace.svg";
+import FullImageHero from "@/components/FullImageHero";
 import GrainTexture from "@/components/GrainTexture";
+import TypingTextOnView from "@/components/TypingTextOnView";
 
 export default function Home() {
 
   /* eslint-disable react/no-unescaped-entities */
-  const gradualText = "look at what's around you do you feel inspired your life is just a cage if it's not pushing you higher all the way all the way we come along this way all the way all the way we made friends along all the way all the way...";
+  const gradualText = "look at what's around you do you feel inspired your life is just a cage if it's not pushing you higher all the way all the way we come along this way all the way all the way we made friends along all the way all the way...          ";
   const cssText = "font-bold";
 
   return (
@@ -36,7 +35,7 @@ export default function Home() {
             <p className={cssText}>feel free to <u><a href="https://github.com/scottPlusPlus/bldsp-fls" target="_blank">use this</a></u> for whatevs</p>
 
             <p className={cssText}>GPT-Style Typing:</p>
-            <GradualTextOnView text={gradualText} />
+            <TypingTextOnView text={gradualText} repeat={true} />
 
             <p className={cssText}>Grainy Image:</p>
             <div className="flex flex-wrap gap-8 justify-center items-center">
