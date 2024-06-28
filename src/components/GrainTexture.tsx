@@ -21,6 +21,6 @@ export default function GrainTexture(){
       }
 
     return (
-        <div className={bgcss + " absolute h-screen w-screen object-cover opacity-40"} style={style}></div>
+        <div className={bgcss + " absolute h-full w-full object-cover opacity-40"} style={style}></div>
     )
 }
